@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Captain&#39;s Blog</title>
+  
+  <subtitle>Captain</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://captaintests.club/"/>
+  <updated>2019-08-28T12:23:21.159Z</updated>
+  <id>https://captaintests.club/</id>
+  
+  <author>
+    <name>伟杰</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mac使用技巧整理</title>
+    <link href="https://captaintests.club/2019/08/28/01mac-skill/"/>
+    <id>https://captaintests.club/2019/08/28/01mac-skill/</id>
+    <published>2019-08-28T10:28:55.000Z</published>
+    <updated>2019-08-28T12:23:21.159Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Mac使用技巧整理&quot;&gt;&lt;a href=&quot;#Mac使用技巧整理&quot; class=&quot;headerlink&quot; title=&quot;Mac使用技巧整理&quot;&gt;&lt;/a&gt;Mac使用技巧整理&lt;/h1&gt;&lt;h2 id=&quot;工具篇&quot;&gt;&lt;a href=&quot;#工具篇&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="其他" scheme="https://captaintests.club/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="mac" scheme="https://captaintests.club/tags/mac/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高级测试课程大纲</title>
+    <link href="https://captaintests.club/2019/08/27/article-title/"/>
+    <id>https://captaintests.club/2019/08/27/article-title/</id>
+    <published>2019-08-27T08:09:56.000Z</published>
+    <updated>2019-08-28T02:55:51.699Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;课程目标&quot;&gt;&lt;a href=&quot;#课程目标&quot; class=&quot;headerlink&quot; title=&quot;课程目标&quot;&gt;&lt;/a&gt;课程目标&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;——潘伟杰&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1-独立开发自动化&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="python基础" scheme="https://captaintests.club/categories/python%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="python" scheme="https://captaintests.club/tags/python/"/>
+    
+  </entry>
+  
+</feed>
