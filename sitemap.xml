@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://captaintests.club/about/index.html</loc>
+    
+    <lastmod>2019-08-29T11:57:51.226Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://captaintests.club/2019/08/29/python-virtual-env/</loc>
     
     <lastmod>2019-08-29T11:17:58.880Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://captaintests.club/contact/index.html</loc>
     
     <lastmod>2019-08-28T12:43:24.579Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://captaintests.club/about/index.html</loc>
-    
-    <lastmod>2019-08-28T11:59:51.964Z</lastmod>
     
   </url>
   
