@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>11python虚拟环境</title>
+      <link href="/2019/08/29/11python-xu-ni-huan-jing/"/>
+      <url>/2019/08/29/11python-xu-ni-huan-jing/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Python虚拟环境"><a href="#Python虚拟环境" class="headerlink" title="Python虚拟环境"></a>Python虚拟环境</h1><blockquote><p>问题：python开发时模块之间右冲突；python2和python3不兼容。</p></blockquote><h2 id="安装pipenv"><a href="#安装pipenv" class="headerlink" title="安装pipenv"></a>安装pipenv</h2><ol><li>保证本机包含python2和python3环境</li><li>在系统python3下安装pipenv：<code>pip3 install pipenv</code></li></ol><h2 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h2><ul><li><p>安装包：<code>$ pipenv install</code></p></li><li><p>激活当前项目的虚拟环境：<code>$ pipenv shell</code></p></li><li><p>安装开发依赖包：<code>$ pipenv install pytest --dev</code></p></li><li><p>图形显示包依赖关系：<code>$ pipenv graph</code></p></li><li><p>生成lockfile：<code>$ pipenv lock</code></p></li><li><p>删除所有的安装包：<code>$ pipenv uninstall --all</code></p></li><li><p>删除某个包：<code>pipenv uninstall reuqests</code></p></li><li><p>生成requirements.txt文件：<code>$ pipenv lock -r</code></p></li><li><p>生成dev-packages的requirements.txt文件：<code>$ pipenv lock -r -d</code></p></li></ul><h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><blockquote><p>为了虚拟环境管理不混乱，建议按如下步骤操作</p></blockquote><ol><li><p>选择文件夹路径作为虚拟环境，命名不要中文，如：<code>cd ~/mypython3</code></p></li><li><p>创建python3虚拟环境：<code>pipenv --python 3</code>  ；同理创建python2虚拟环境：<code>pipenv --python 2</code> </p></li><li><p>激活虚拟环境：<code>pipenv shell</code></p></li><li><p>虚拟环境下安装库：<code>pip install requests</code> 即可</p></li></ol><h2 id="Pycharm配置虚拟环境"><a href="#Pycharm配置虚拟环境" class="headerlink" title="Pycharm配置虚拟环境"></a>Pycharm配置虚拟环境</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> python 虚拟环境 pipenv </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Mac使用技巧整理</title>
       <link href="/2019/08/28/01mac-skill/"/>
       <url>/2019/08/28/01mac-skill/</url>
