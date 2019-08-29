@@ -4,17 +4,15 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Mac使用技巧整理, Python 自动化测试 性能测试 测试开发">
+    <meta name="keywords" content="Python虚拟环境, Python 自动化测试 性能测试 测试开发">
     <meta name="baidu-site-verification" content>
     <meta name="google-site-verification" content>
-    <meta name="description" content="Mac使用技巧整理工具篇配置篇技巧篇其他
-问题篇
-问题：双击打开md文件时候，每次都自动使用xcode打开，手动更换默认打开方式，下次打开仍然无效。
+    <meta name="description" content="Python虚拟环境
+问题：python开发时模块之间右冲突；python2和python3不兼容。
 
-
-右击md文件，选择显示简介
-找到打开方式，选择打开方式为：Typora
-点击全部更改，">
+安装pipenv
+保证本机包含python2和python3环境
+在系统python3下安装pipenv：pip3 install pi">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -22,7 +20,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Mac使用技巧整理 | Captain&#39;s Blog</title>
+    <title>Python虚拟环境 | Captain&#39;s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -296,13 +294,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Mac使用技巧整理
+                        Python虚拟环境
                     </div>
                 </div>
             </div>
@@ -413,8 +411,16 @@
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/mac/" target="_blank">
-                            <span class="chip bg-color">mac</span>
+                        <a href="/tags/python/" target="_blank">
+                            <span class="chip bg-color">python</span>
+                        </a>
+                        
+                        <a href="/tags/虚拟环境/" target="_blank">
+                            <span class="chip bg-color">虚拟环境</span>
+                        </a>
+                        
+                        <a href="/tags/pipenv/" target="_blank">
+                            <span class="chip bg-color">pipenv</span>
                         </a>
                         
                     </div>
@@ -425,8 +431,8 @@
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                        <a href="/categories/其他/" class="post-category" target="_blank">
-                            其他
+                        <a href="/categories/python/" class="post-category" target="_blank">
+                            python
                         </a>
                         
                     </div>
@@ -437,7 +443,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-08-28
+                    2019-08-29
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -451,7 +457,7 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    95
+                    231
                 </div>
                 
 
@@ -474,16 +480,47 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Mac使用技巧整理"><a href="#Mac使用技巧整理" class="headerlink" title="Mac使用技巧整理"></a>Mac使用技巧整理</h1><h2 id="工具篇"><a href="#工具篇" class="headerlink" title="工具篇"></a>工具篇</h2><h2 id="配置篇"><a href="#配置篇" class="headerlink" title="配置篇"></a>配置篇</h2><h2 id="技巧篇"><a href="#技巧篇" class="headerlink" title="技巧篇"></a>技巧篇</h2><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><hr>
-<h2 id="问题篇"><a href="#问题篇" class="headerlink" title="问题篇"></a>问题篇</h2><blockquote>
-<p>问题：双击打开md文件时候，每次都自动使用xcode打开，手动更换默认打开方式，下次打开仍然无效。</p>
+                <h1 id="Python虚拟环境"><a href="#Python虚拟环境" class="headerlink" title="Python虚拟环境"></a>Python虚拟环境</h1><blockquote>
+<p>问题：python开发时模块之间右冲突；python2和python3不兼容。</p>
+</blockquote>
+<h2 id="安装pipenv"><a href="#安装pipenv" class="headerlink" title="安装pipenv"></a>安装pipenv</h2><ol>
+<li>保证本机包含python2和python3环境</li>
+<li>在系统python3下安装pipenv：<code>pip3 install pipenv</code></li>
+</ol>
+<h2 id="基本命令"><a href="#基本命令" class="headerlink" title="基本命令"></a>基本命令</h2><ul>
+<li><p>安装包：<code>$ pipenv install</code></p>
+</li>
+<li><p>激活当前项目的虚拟环境：<code>$ pipenv shell</code></p>
+</li>
+<li><p>安装开发依赖包：<code>$ pipenv install pytest --dev</code></p>
+</li>
+<li><p>图形显示包依赖关系：<code>$ pipenv graph</code></p>
+</li>
+<li><p>生成lockfile：<code>$ pipenv lock</code></p>
+</li>
+<li><p>删除所有的安装包：<code>$ pipenv uninstall --all</code></p>
+</li>
+<li><p>删除某个包：<code>pipenv uninstall reuqests</code></p>
+</li>
+<li><p>生成requirements.txt文件：<code>$ pipenv lock -r</code></p>
+</li>
+<li><p>生成dev-packages的requirements.txt文件：<code>$ pipenv lock -r -d</code></p>
+</li>
+</ul>
+<h2 id="实际操作"><a href="#实际操作" class="headerlink" title="实际操作"></a>实际操作</h2><blockquote>
+<p>为了虚拟环境管理不混乱，建议按如下步骤操作</p>
 </blockquote>
 <ol>
-<li>右击md文件，选择<code>显示简介</code></li>
-<li>找到<code>打开方式</code>，选择打开方式为：<code>Typora</code></li>
-<li>点击<code>全部更改</code>，点击<code>继续</code></li>
+<li><p>选择文件夹路径作为虚拟环境，命名不要中文，如：<code>cd ~/mypython3</code></p>
+</li>
+<li><p>创建python3虚拟环境：<code>pipenv --python 3</code>  ；同理创建python2虚拟环境：<code>pipenv --python 2</code> </p>
+</li>
+<li><p>激活虚拟环境：<code>pipenv shell</code></p>
+</li>
+<li><p>虚拟环境下安装库：<code>pip install requests</code> 即可</p>
+</li>
 </ol>
-
+<h2 id="Pycharm配置虚拟环境"><a href="#Pycharm配置虚拟环境" class="headerlink" title="Pycharm配置虚拟环境"></a>Pycharm配置虚拟环境</h2>
             </div>
             <hr />
 
@@ -641,9 +678,9 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《Mac使用技巧整理》
+                    《Python虚拟环境》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/08/28/01mac-skill/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/08/29/python-virtual-env/" property="cc:attributionName"
                rel="cc:attributionURL">
                 伟杰
             </a> 采用
@@ -684,7 +721,7 @@
         repo: 'xiaopanddxiong.github.io',
         owner: 'xiaopanddxiong',
         admin: "xiaopanddxiong",
-        id: '2019/08/28/01mac-skill/',
+        id: '2019/08/29/python-virtual-env/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -705,11 +742,12 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2019/08/29/11python-xu-ni-huan-jing/">
+                <a href="/2019/08/29/python-virtual-env/">
                     <div class="card-image">
                         
                         
@@ -725,9 +763,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-29
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-29
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -740,6 +778,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -766,31 +805,31 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/08/27/article-title/">
+                <a href="/2019/08/28/mac-skill/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="高级测试课程大纲">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="Mac使用技巧整理">
                         
-                        <span class="card-title">高级测试课程大纲</span>
+                        <span class="card-title">Mac使用技巧整理</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            python大纲简介
+                            mac使用技巧整合
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-27
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-08-28
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/python/" class="post-category" target="_blank">
-                                    python
+                            <a href="/categories/其他/" class="post-category" target="_blank">
+                                    其他
                                 </a>
                             
                             
@@ -800,8 +839,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/python/" target="_blank">
-                        <span class="chip bg-color">python</span>
+                    <a href="/tags/mac/" target="_blank">
+                        <span class="chip bg-color">mac</span>
                     </a>
                     
                 </div>
