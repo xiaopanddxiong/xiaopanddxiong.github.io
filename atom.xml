@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://captaintests.club/"/>
-  <updated>2019-08-29T05:21:00.976Z</updated>
+  <updated>2019-08-29T11:17:58.880Z</updated>
   <id>https://captaintests.club/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://captaintests.club/2019/08/29/python-virtual-env/"/>
     <id>https://captaintests.club/2019/08/29/python-virtual-env/</id>
     <published>2019-08-29T03:24:13.000Z</published>
-    <updated>2019-08-29T05:21:00.976Z</updated>
+    <updated>2019-08-29T11:17:58.880Z</updated>
     
     <summary type="html">
     
@@ -69,33 +69,6 @@
     
     
       <category term="mac" scheme="https://captaintests.club/tags/mac/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>高级测试课程大纲</title>
-    <link href="https://captaintests.club/2019/08/27/course-outline/"/>
-    <id>https://captaintests.club/2019/08/27/course-outline/</id>
-    <published>2019-08-27T08:09:56.000Z</published>
-    <updated>2019-08-29T03:50:11.842Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;课程目标&quot;&gt;&lt;a href=&quot;#课程目标&quot; class=&quot;headerlink&quot; title=&quot;课程目标&quot;&gt;&lt;/a&gt;课程目标&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;——潘伟杰&lt;/strong&gt;&lt;/p&gt;
-&lt;h2 id=&quot;1-独立开发自动化&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="python" scheme="https://captaintests.club/categories/python/"/>
-    
-    
-      <category term="python" scheme="https://captaintests.club/tags/python/"/>
     
   </entry>
   
