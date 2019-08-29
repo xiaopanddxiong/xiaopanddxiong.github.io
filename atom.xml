@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://captaintests.club/"/>
-  <updated>2019-08-29T03:46:08.450Z</updated>
+  <updated>2019-08-29T03:49:31.107Z</updated>
   <id>https://captaintests.club/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://captaintests.club/2019/08/29/11python-xu-ni-huan-jing/"/>
     <id>https://captaintests.club/2019/08/29/11python-xu-ni-huan-jing/</id>
     <published>2019-08-29T03:24:13.000Z</published>
-    <updated>2019-08-29T03:46:08.450Z</updated>
+    <updated>2019-08-29T03:49:31.107Z</updated>
     
     <summary type="html">
     
@@ -38,7 +38,11 @@
       <category term="python" scheme="https://captaintests.club/categories/python/"/>
     
     
-      <category term="python 虚拟环境 pipenv" scheme="https://captaintests.club/tags/python-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83-pipenv/"/>
+      <category term="python" scheme="https://captaintests.club/tags/python/"/>
+    
+      <category term="虚拟环境" scheme="https://captaintests.club/tags/%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/"/>
+    
+      <category term="pipenv" scheme="https://captaintests.club/tags/pipenv/"/>
     
   </entry>
   
@@ -73,7 +77,7 @@
     <link href="https://captaintests.club/2019/08/27/article-title/"/>
     <id>https://captaintests.club/2019/08/27/article-title/</id>
     <published>2019-08-27T08:09:56.000Z</published>
-    <updated>2019-08-28T02:55:51.699Z</updated>
+    <updated>2019-08-29T03:50:11.842Z</updated>
     
     <summary type="html">
     
@@ -88,7 +92,7 @@
     
     </summary>
     
-      <category term="python基础" scheme="https://captaintests.club/categories/python%E5%9F%BA%E7%A1%80/"/>
+      <category term="python" scheme="https://captaintests.club/categories/python/"/>
     
     
       <category term="python" scheme="https://captaintests.club/tags/python/"/>

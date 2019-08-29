@@ -20,7 +20,11 @@
       
         <tags>
             
-            <tag> python 虚拟环境 pipenv </tag>
+            <tag> python </tag>
+            
+            <tag> 虚拟环境 </tag>
+            
+            <tag> pipenv </tag>
             
         </tags>
       
@@ -63,7 +67,7 @@
       
       <categories>
           
-          <category> python基础 </category>
+          <category> python </category>
           
       </categories>
       
